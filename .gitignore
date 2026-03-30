@@ -1,0 +1,6 @@
+# Model weights (too large for GitHub - 540MB)
+sentiment_model/best_model.pt
+
+# Python cache
+__pycache__/
+*.py[cod]

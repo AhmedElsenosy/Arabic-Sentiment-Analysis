@@ -1,0 +1,115 @@
+2026-03-08 18:38:45,954 [INFO] 🚀 Starting training preparation...
+2026-03-08 18:38:47,251 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:38:47,345 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:47,394 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:47,652 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:38:47,694 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:47,736 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:47,918 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 18:38:48,093 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 18:38:48,270 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/vocab.txt "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:38:48,320 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/vocab.txt "HTTP/1.1 200 OK"
+2026-03-08 18:38:48,378 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/vocab.txt "HTTP/1.1 200 OK"
+2026-03-08 18:38:48,992 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:38:49,032 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:49,095 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:50,082 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-03-08 18:38:50,259 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:38:50,290 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:50,322 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:50,500 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-03-08 18:38:50,806 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 18:38:51,035 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:38:51,087 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:38:51,452 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-03-08 18:38:51,753 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/xet-read-token/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60 "HTTP/1.1 200 OK"
+2026-03-08 18:43:49,673 [INFO] 🔥 Starting training for 4 epochs...
+2026-03-08 18:46:08,821 [INFO] 🚀 Starting training preparation...
+2026-03-08 18:46:09,877 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:46:09,902 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:46:10,068 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:46:10,127 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:46:10,321 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 18:46:10,520 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 18:46:10,826 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 18:46:10,985 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:46:11,096 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:46:11,904 [INFO] 🔥 Starting training for 4 epochs...
+2026-03-08 18:48:43,785 [INFO] 🚀 Starting training preparation...
+2026-03-08 18:48:44,867 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:48:44,892 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:48:45,057 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:48:45,082 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:48:45,243 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 18:48:45,482 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 18:48:45,756 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 18:48:45,916 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:48:45,941 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:48:46,629 [INFO] 🔥 Starting training for 4 epochs...
+2026-03-08 18:51:08,195 [INFO] 🚀 Starting training preparation...
+2026-03-08 18:51:09,223 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:51:09,249 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:51:09,417 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:51:09,442 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:51:09,659 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 18:51:09,821 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 18:51:10,090 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 18:51:10,274 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:51:10,300 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:51:11,014 [INFO] 🔥 Starting training for 4 epochs (batch=4, accum=4, effective_batch=16)...
+2026-03-08 18:53:17,970 [INFO] 🚀 Starting training preparation...
+2026-03-08 18:53:19,096 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:53:19,120 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:53:19,300 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:53:19,325 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:53:19,492 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 18:53:19,711 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 18:53:20,021 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 18:53:20,222 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:53:20,247 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:53:20,935 [INFO] 🔥 Starting training for 4 epochs (batch=4, accum=4, effective_batch=16)...
+2026-03-08 18:56:46,975 [INFO] 🚀 Starting training preparation...
+2026-03-08 18:56:48,099 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:56:48,124 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:56:48,294 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:56:48,319 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 18:56:48,506 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 18:56:48,710 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 18:56:48,999 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 18:56:49,162 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 18:56:49,188 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 18:56:49,898 [INFO] 🔥 Starting training for 4 epochs...
+2026-03-08 19:11:35,271 [INFO] 🚀 Starting training preparation...
+2026-03-08 19:11:36,271 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 19:11:36,272 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-08 19:11:36,297 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 19:11:36,465 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 19:11:36,492 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 19:11:36,660 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 19:11:36,931 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 19:11:37,200 [INFO] Initialized DataLoaders. Train size: 41143
+2026-03-08 19:11:37,365 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 19:11:37,392 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 19:11:38,101 [INFO] 🔥 Starting training for 4 epochs...
+2026-03-08 19:42:18,691 [INFO] ✅ New best model saved with accuracy: 0.7326
+2026-03-08 20:12:58,586 [INFO] ✅ New best model saved with accuracy: 0.7399
+2026-03-08 20:43:38,527 [INFO] ✅ New best model saved with accuracy: 0.7450
+2026-03-08 21:14:18,250 [INFO] ✅ New best model saved with accuracy: 0.7486
+2026-03-08 21:14:18,250 [INFO] 🏁 Training complete in 7360.1s. Best Val Accuracy: 0.7486
+2026-03-08 21:39:19,540 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 21:39:19,564 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 21:39:19,738 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 21:39:19,740 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-08 21:39:19,763 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 21:39:19,928 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 21:39:20,112 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 21:39:20,623 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 21:39:20,644 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 21:42:29,144 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 21:42:29,170 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
+2026-03-08 21:42:29,450 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 21:42:29,474 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-08 21:42:29,638 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-08 21:42:29,860 [INFO] HTTP Request: GET https://huggingface.co/api/models/aubmindlab/bert-base-arabertv02/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-08 21:42:30,381 [INFO] HTTP Request: HEAD https://huggingface.co/aubmindlab/bert-base-arabertv02/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-08 21:42:30,408 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/aubmindlab/bert-base-arabertv02/016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60/config.json "HTTP/1.1 200 OK"
